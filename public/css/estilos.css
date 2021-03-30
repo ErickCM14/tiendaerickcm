@@ -58,7 +58,7 @@ img{
 
 .contenedor{
     /*max-width: 120rem;*/
-    width: (95%, 120rem);
+    width: min(120rem, 95%);
     margin: 0 auto;
 }
 
@@ -139,13 +139,13 @@ img{
     margin-bottom: 2rem;
 }
 
-.producto__imagen{
+/*.producto__imagen{
 
 }
 
 .producto__informacion{
 
-}
+}*/
 
 .producto__nombre{
     font-size: 3.5rem;
@@ -203,9 +203,9 @@ img{
     }
 }
 
-.nosotros__contenido{
+/*.nosotros__contenido{
 
-}
+}*/
 
 .nosotros__imagen{
     grid-row: 1 / 2;
@@ -239,9 +239,9 @@ img{
 
 /**Producto Camisa**/
 
-.camisa{
+/*.camisa{
 
-}
+}*/
 
 @media(min-width: 768px){
     .camisa{
@@ -252,9 +252,9 @@ img{
     }
 }
 
-.camisa__contenido{
+/*.camisa__contenido{
 
-}
+}*/
 
 .formulario{
     display:grid;
